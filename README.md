@@ -7,7 +7,9 @@ Python GUI application that accepts user information into three fields: first na
 
 Also included is a shell script to run the application, and output a winner to a textfile when done.
 **NOTE:** If you'd like to run the script:
-* In the if statement, change the path to where ever you plan to store these files.
+* In the if statement, change the path to where ever you plan to store these files. For example, in Line 1:
+
+   `if [ -f /path/to/location/of/output.txt ]; then`
   * If you don't want to include that if statement, just comment it out with '#'
 * make sure to add permissions
 
